@@ -1,3 +1,25 @@
+def romanToInt(s):
+    mapper = {
+      'M' : 1000,
+      'D' : 500,
+      'C' : 100,
+      'L' : 50,
+      'X' : 10,
+      'V' : 5,
+      'I' : 1,
+    }
+    i = 0
+    t = 'M'
+    result = 0
+    while i < len(s):
+        if mapper[s[i]] > mapper[t]:
+            result = result + mapper[s[i]] - 2 * mapper[t]
+        else:
+            result = result + mapper[s[i]]
+        t = s[i]
+        i += 1
+    return result
+
 def inToRoman(num):
     
     def cal(n, P1, P2, i):
@@ -37,5 +59,8 @@ def inToRoman(num):
 
     return result
 
-c = inToRoman(3999)
-print(c)
+a = 123
+
+print(a)
+
+print(romanToInt(inToRoman(a)))
