@@ -8,16 +8,10 @@ class Solution {
         	diff[i] = prices[i+1] - prices[i];
         }
         int maxProfit = 0;
-        int posProfit = 0;
         for (int i=0;i<diff.length;i++) {
-        	if (posProfit >= 0) {
-	            posProfit += diff[i];
-            } else {
-                posProfit = diff[i];
-            }
-            if (posProfit > maxProfit) {
-	            maxProfit = posProfit;
-	        }
+        	if (diff[i]>0) {
+        		maxProfit += diff[i];
+        	}
         }
         return maxProfit;
     }
