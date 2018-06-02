@@ -1,7 +1,7 @@
 
 3 weeks
-array 2
-string 3
+!array 
+string 3 
 hashtable 3
 linkedlist 3
 queue 3
@@ -26,4 +26,10 @@ recursion 3
 
 
 two pointers
+
+
 bit manipulation
+136
+
+
+557

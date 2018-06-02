@@ -15,6 +15,6 @@ class Solution {
         		pq.poll();
         	}
         }
-        return pq.peak();
+        return pq.peek();
     }
 }
