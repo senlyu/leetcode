@@ -1,27 +1,31 @@
 
-3 weeks
-!array 
-string 3 
-hashtable 3
-linkedlist 3
-queue 3
-stack 3
-heap 3
-tree 3
-graph 3
+4 weeks
+!array ----------30m15h
+!string 3 -------10m10h
+hashtable 3------20e15m7h
+!linkedlist 3----11m
+queue 3----------1e1m1h
+stack 3----------5e14m
+heap 3-----------11m6h
+tree 3-----------19e
+graph 3----------7m
 
 2 week
-sort 3
-union find 3
-searchs 3
-trees 3
+(1 day of copy and learn)
+
+sort 3-----------4e10m
+union find 3-----6m
+searchs 3--------20e54m
+trees 3----------6m
+
+
 
 2 week
-dc 3
-dp 3
-bt 3
-greedy 3
-recursion 3
+dc 3------2e3m9h
+dp 3------6e40+m20+h
+bt 3------2e19m8h
+greedy 3--12m8h
+recursion 3-----1e3m2h
 
 
 
@@ -32,9 +36,15 @@ bit manipulation
 136
 
 
-557
 
 
-java calculate condition:
-(a && b)
-if a is false, will it go to calculate b?
+hashtable 599
+
+
+------to learn------
+regex 
+
+
+
+-----points----
+how to clean the code.
