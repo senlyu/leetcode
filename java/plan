@@ -1,8 +1,8 @@
 
 4 weeks
-!array ----------30m15h
-!string 3 -------10m10h
-hashtable 3------20e15m7h
+!array ----------30m15h     
+!string 3 -------10m10h   
+!hashtable 3------20e15m7h
 !linkedlist 3----11m
 queue 3----------1e1m1h
 stack 3----------5e14m
@@ -48,3 +48,6 @@ regex
 
 -----points----
 how to clean the code.
+
+------sliding window
+https://leetcode.com/problems/find-all-anagrams-in-a-string/discuss/92007/Sliding-Window-algorithm-template-to-solve-all-the-Leetcode-substring-search-problem.
