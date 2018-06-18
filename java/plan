@@ -5,7 +5,7 @@
 !hashtable 3------20e15m7h
 !linkedlist 3----11m
 queue 3----------1e1m1h
-stack 3----------5e14m
+!stack 3----------5e14m
 heap 3-----------11m6h
 tree 3-----------19e
 graph 3----------7m
@@ -38,7 +38,7 @@ bit manipulation
 
 
 
-hashtable 599
+tree 606
 
 
 ------to learn------
